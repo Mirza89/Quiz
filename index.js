@@ -3,6 +3,10 @@ function ShowNonInvasive() {
   $('#GlavniMeni').hide();
 }
 
+function UnderConstruction() {
+  alert("Under construction... Will be available soon!!");
+}
+
 function Reset() {
   $("#a1").show();
   $("#a1No").hide();
