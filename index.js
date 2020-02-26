@@ -1,4 +1,176 @@
+function ShowNonInvasive() {
+  $("#a1").show();
+  $('#GlavniMeni').hide();
+}
+
+function Reset() {
+  $("#a1").show();
+  $("#a1No").hide();
+  $("#a1Yes").hide();
+  $("#a2No").hide();
+  $("#a2Yes").hide();
+  $("#a3No").hide();
+  $("#a3Yes").hide();
+  $("#a4No").hide();
+  $("#a4Yes").hide();
+  $("#a5No").hide();
+  $("#a5Yes").hide();
+  $("#a6No").hide();
+  $("#a6Yes").hide();
+  $("#a7No").hide();
+  $("#a7Yes").hide();
+  $("#a8No").hide();
+  $("#a8Yes").hide();
+  $("#a9No").hide();
+  $("#a9Yes").hide();
+  $("#a10No").hide();
+  $("#a10Yes").hide();
+  $("#a11No").hide();
+  $("#a11Yes").hide();
+}
+
+function BackButton() {
+  $("#a1No").hide();
+  $("#a1").show();
+}
+
+function BackButton1() {
+  $("#a1Yes").hide();
+  $("#a1").show();
+}
+
+function BackButton2() {
+  $("#a2Yes").hide();
+  $("#a1Yes").show();
+}
+
+function BackButton3() {
+  $("#a2No").hide();
+  $("#a1Yes").show();
+}
+
+function BackButton4() {
+  $("#a3Yes").hide();
+  $("#a2No").show();
+}
+
+function BackButton5() {
+  $("#a3No").hide();
+  $("#a2No").show();
+}
+
+function BackButton6() {
+  $("#a4No").hide();
+  $("#a3No").show();
+}
+
+function BackButton7() {
+  $("#a4Yes").hide();
+  $("#a3No").show();
+}
+//Presjek
+function BackButton8() {
+  $("#a5No").hide();
+  $("#a1No").show();
+}
+function BackButton9() {
+  $("#a5Yes").hide();
+  $("#a1No").show();
+}
+
+function BackButton10() {
+  $("#a6Yes").hide();
+  $("#a5Yes").show();
+}
+
+function BackButton11() {
+  $("#a6No").hide();
+  $("#a5Yes").show();
+}
+
+function BackButton12() {
+  $("#a7Yes").hide();
+  $("#a6No").show();
+}
+
+function BackButton13() {
+  $("#a7No").hide();
+  $("#a6No").show();
+}
+//presjek2
+function BackButton14() {
+  $("#a8No").hide();
+  $("#a5No").show();
+}
+
+function BackButton15() {
+  $("#a8Yes").hide();
+  $("#a5No").show();
+}
+
+function BackButton16() {
+  $("#a9Yes").hide();
+  $("#a8Yes").show();
+}
+
+function BackButton17() {
+  $("#a9No").hide();
+  $("#a8Yes").show();
+}
+
+function BackButton18() {
+  $("#a10Yes").hide();
+  $("#a9No").show();
+}
+
+function BackButton19() {
+  $("#a10No").hide();
+  $("#a9No").show();
+}
+
+function BackButton20() {
+  $("#a11Yes").hide();
+  $("#a10No").show();
+}
+
+function BackButton21() {
+  $("#a11No").hide();
+  $("#a10No").show();
+}
+
+//menu
+function ShowMenu() {
+  $('#GlavniMeni').show();
+  $("#a1").hide();
+  $("#a1No").hide();
+  $("#a1Yes").hide();
+  $("#a2No").hide();
+  $("#a2Yes").hide();
+  $("#a3No").hide();
+  $("#a3Yes").hide();
+  $("#a4No").hide();
+  $("#a4Yes").hide();
+  $("#a5No").hide();
+  $("#a5Yes").hide();
+  $("#a6No").hide();
+  $("#a6Yes").hide();
+  $("#a7No").hide();
+  $("#a7Yes").hide();
+  $("#a8No").hide();
+  $("#a8Yes").hide();
+  $("#a9No").hide();
+  $("#a9Yes").hide();
+  $("#a10No").hide();
+  $("#a10Yes").hide();
+  $("#a11No").hide();
+  $("#a11Yes").hide();
+}
+
+
+//Prikaz
 $(document).ready(function(){
+    $('#GlavniMeni').show();
+    $("#a1").hide();
     $("#a1No").hide();
     $("#a1Yes").hide();
     $("#a2No").hide();
