@@ -1,6 +1,7 @@
 function ShowNonInvasive() {
   $("#a1").show();
   $('#GlavniMeni').hide();
+  $('#GlavniMeni2').show();
 }
 
 function UnderConstruction() {
@@ -145,6 +146,7 @@ function BackButton21() {
 //menu
 function ShowMenu() {
   $('#GlavniMeni').show();
+  $('#GlavniMeni2').hide();
   $("#a1").hide();
   $("#a1No").hide();
   $("#a1Yes").hide();
@@ -174,6 +176,7 @@ function ShowMenu() {
 //Prikaz
 $(document).ready(function(){
     $('#GlavniMeni').show();
+    $('#GlavniMeni2').hide();
     $("#a1").hide();
     $("#a1No").hide();
     $("#a1Yes").hide();
