@@ -251,7 +251,7 @@ body{
         align-items:center;
     }
 }
-@media ( min-width: 1200px ) {
+@media ( min-width: 1920px ) {
     .lg-flex-center {
         display:flex;
         align-items:center;
