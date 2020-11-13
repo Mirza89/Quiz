@@ -16,6 +16,9 @@ h4{
 
 body{
   background: #2b96cc;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .TextMnu{
