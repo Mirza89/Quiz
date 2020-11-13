@@ -19,6 +19,8 @@ body{
   height: 100%;
   margin: 0;
   padding: 0;
+
+  
 }
 
 .TextMnu{
@@ -242,23 +244,32 @@ body{
     display:flex;
     align-items:center;
 }
-@media ( min-width:768px ) {
-    .sm-flex-center {
-        display:flex;
-        align-items:center;
-    }
+
+/* Mobile */
+@media (min-width: 0) and (max-width: 768px) { 
+
+  .sm-flex-center {
+    display:flex;
+    align-items:center;
 }
-@media ( min-width: 992px ) {
-    .md-flex-center {
-        display:flex;
-        align-items:center;
-    }
 }
-@media ( min-width: 1920px ) {
-    .lg-flex-center {
-        display:flex;
-        align-items:center;
-    }
+  
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) { 
+
+  .md-flex-center {
+    display:flex;
+    align-items:center;
+}
+}
+  
+/* Desktop */
+@media (min-width: 1025px) { 
+
+  .lg-flex-center {
+    display:flex;
+    align-items:center;
+}
 }
 
 .MainMenu{
