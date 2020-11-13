@@ -6,7 +6,8 @@
 }
 
 h4{
-  font-size: 10px !important;
+  font-size: 15px !important;
+  font-weight: normal;
 }
 
 .NewButtons{
@@ -17,6 +18,10 @@ body{
   background: #2b96cc;
 }
 
+.TextMnu{
+  margin-top: 90px !important;
+  font-weight: bold;
+}
 
 #GlavniMeni{
   border-radius: 50px;
@@ -26,6 +31,7 @@ body{
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  padding: 0px;
 }
 
 #GlavniMeniS{
@@ -37,6 +43,7 @@ body{
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   text-align: justify;
+  padding: 0px;
 }
 
 #GlavniMeni2{
@@ -47,6 +54,7 @@ body{
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  padding: 0px;
 }
 
 #GlavniMeni3{
@@ -57,6 +65,7 @@ body{
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  padding: 0px;
 }
 
 #GlavniMeni4{
@@ -67,6 +76,7 @@ body{
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  padding: 0px;
 }
 
 #GlavniMeni5{
@@ -77,9 +87,11 @@ body{
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  padding: 0px;
 }
 
-#GlavniMeni6{
+
+#GlavniMeni{
   border-radius: 50px;
   border-color: #2b96cc;
   background: white;
@@ -87,9 +99,10 @@ body{
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  padding: 0px;
 }
 
-#GlavniMeni7{
+#GlavniMeniS{
   border-radius: 50px;
   border-color: #2b96cc;
   background: white;
@@ -97,9 +110,11 @@ body{
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  text-align: justify;
+  padding: 0px;
 }
 
-#GlavniMeni8{
+#GlavniMeni2S{
   border-radius: 50px;
   border-color: #2b96cc;
   background: white;
@@ -107,9 +122,10 @@ body{
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  padding: 0px;
 }
 
-#GlavniMeni9{
+#GlavniMeni3S{
   border-radius: 50px;
   border-color: #2b96cc;
   background: white;
@@ -117,9 +133,10 @@ body{
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  padding: 0px;
 }
 
-#GlavniMeni10{
+#GlavniMeni4S{
   border-radius: 50px;
   border-color: #2b96cc;
   background: white;
@@ -127,9 +144,10 @@ body{
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  padding: 0px;
 }
 
-#GlavniMeni11{
+#GlavniMeni5S{
   border-radius: 50px;
   border-color: #2b96cc;
   background: white;
@@ -137,9 +155,10 @@ body{
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  padding: 0px;
 }
 
-#GlavniMeni12{
+#GlavniMeni6S{
   border-radius: 50px;
   border-color: #2b96cc;
   background: white;
@@ -147,6 +166,73 @@ body{
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  padding: 0px;
+}
+
+#GlavniMeni7S{
+  border-radius: 50px;
+  border-color: #2b96cc;
+  background: white;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0px;
+}
+
+#GlavniMeni8S{
+  border-radius: 50px;
+  border-color: #2b96cc;
+  background: white;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0px;
+}
+
+#GlavniMeni9S{
+  border-radius: 50px;
+  border-color: #2b96cc;
+  background: white;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0px;
+}
+
+#GlavniMeni10S{
+  border-radius: 50px;
+  border-color: #2b96cc;
+  background: white;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0px;
+}
+
+#GlavniMeni11S{
+  border-radius: 50px;
+  border-color: #2b96cc;
+  background: white;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0px;
+}
+
+#GlavniMeni12S{
+  border-radius: 50px;
+  border-color: #2b96cc;
+  background: white;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0px;
 }
 
 .flex-center {
@@ -172,13 +258,16 @@ body{
     }
 }
 
+.MainMenu{
+  border-radius: 10px;
+  height: 260px;
+  text-align: center;
+}
+
 .NewColor{
   background: #f2f2f2;
 }
 
-ul :hover{
-  background: #f2f2f2;
-}
 
 .btn :hover{
     background: transparent !important;
@@ -236,7 +325,8 @@ ul :hover{
 
 .NewColorQUiz{
   background: #f2f2f2;
-  height: 200px;
+  height: 350px;
+  border-radius: 10px;
 }
 
 .dropbtn {  
@@ -261,12 +351,6 @@ ul :hover{
   z-index: 1;
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
 
 .dropdown-content a:hover {background-color: white;}
 
@@ -291,4 +375,14 @@ ul :hover{
 .paragraf{
   font-size: 9px;
 }
+
+.dropdown{
+  background: transparent;
+}
+
+.btn-primary{
+  background: #2b96cc;
+}
+
+
 
