@@ -21,8 +21,8 @@
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
-
+<body class="centered-wrapper">
+  <div class="centered-content">
   <!-- Just an image -->
   <nav class="navbar navbar-light">
     <a class="navbar-brand" href="#">
@@ -637,9 +637,10 @@
 
           <div class="Pitanje col-md-6" id="b2No">
             <h4 class="KrajQuiza">Please re-visit the Main menu</h4>
+            <div class="dugme">
             <button type="button" class="btn btn-outline-primary" onclick="ShowMenu()" id="Menu" name="button"><img
               class="hidepleaseMenu" src="./Menu.svg" style="height: 20px;" alt=""> Main Menu</button>
-         
+            </div>
             <div class="NewButtons">
               <button type="button" class="btn btn4 " onclick="Reset()" id="Reset" name="button"><img
                   class="hideplease3" src="./Refresh.svg" style="height: 20px;" alt=""></button>
@@ -828,8 +829,10 @@
             <h4>Please revisit the
               Main
               menu</h4>
-              <button type="button" class="btn btn-outline-primary" onclick="ShowMenu()" id="Menu" name="button"><img
-                class="hidepleaseMenu" src="./Menu.svg" style="height: 20px;" alt="">Main Menu</button>
+              <div class="dugme">
+                <button type="button" class="btn btn-outline-primary" onclick="ShowMenu()" id="Menu" name="button"><img
+                  class="hidepleaseMenu" src="./Menu.svg" style="height: 20px;" alt=""> Main Menu</button>
+                </div>
             <div class="NewButtons">
               <button type="button" class="btn btn4" onclick="Reset()" id="Reset" name="button"><img class="hideplease3"
                   src="./Refresh.svg" style="height: 20px;" alt=""></button>
@@ -1702,8 +1705,10 @@
 
           <div class="Pitanje col-md-6" id="b30No">
             <h4>Please re-visit the Main menu</h4>
-            <button type="button" class="btn btn-outline-primary" onclick="ShowMenu()" id="Menu" name="button"><img
-              class="hidepleaseMenu" src="./Menu.svg" style="height: 20px;" alt="">Main Menu</button>
+            <div class="dugme">
+              <button type="button" class="btn btn-outline-primary" onclick="ShowMenu()" id="Menu" name="button"><img
+                class="hidepleaseMenu" src="./Menu.svg" style="height: 20px;" alt=""> Main Menu</button>
+              </div>
             <div class="NewButtons">
               <button type="button" class="btn btn4" onclick="Reset()" id="Reset" name="button"><img class="hideplease3"
                   src="./Refresh.svg" style="height: 20px;" alt=""></button>
@@ -4729,7 +4734,9 @@
         </div>
       </div>
 
-
+    </div>
+  </div>
+</div>
 </body>
 
 <script type="text/javascript" src="index.js"></script>

@@ -18,9 +18,11 @@ body{
   background: #2b96cc;
   height: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0;  
+}
 
-  
+.dugme{
+  text-align:center;
 }
 
 .TextMnu{
@@ -398,5 +400,12 @@ body{
   background: #2b96cc;
 }
 
+.centered-wrapper:before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 0; height: 100%;
+  vertical-align: middle;
+}
 
 

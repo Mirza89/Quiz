@@ -231,7 +231,7 @@ $("#Odgovor5").click(function(){
   $("#b6Yes").show();
 });
 $("#Odgovor6").click(function(){
-  $("#b2Yes").hide();
+  $("#b1Yes").hide();
   $("#b6No").show();
 });
 //Cevrto Pitanje
