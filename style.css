@@ -264,7 +264,7 @@ body{
 }
   
 /* Desktop */
-@media (min-width: 1025px) { 
+@media (min-width: 1024px) { 
 
   .lg-flex-center {
     display:flex;
@@ -274,7 +274,7 @@ body{
 
 .MainMenu{
   border-radius: 10px;
-  height: 260px;
+  height: auto;
   text-align: center;
 }
 
@@ -339,7 +339,7 @@ body{
 
 .NewColorQUiz{
   background: #f2f2f2;
-  height: 350px;
+  height: auto;
   border-radius: 10px;
 }
 
