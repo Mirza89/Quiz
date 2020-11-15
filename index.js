@@ -2026,3 +2026,7 @@ Back123S = () => {
   $("#e1Yes").hide();
   $("#e1").show();
 }
+
+Exit = () => {
+  window.open("https://qualitycert.ba/")
+}
