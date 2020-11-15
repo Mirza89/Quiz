@@ -14,13 +14,32 @@ h4{
   text-align: right;
 }
 
+.slika {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+  margin-top: -30px;
+  margin-left: -20px;
+}
+
+.Kategorije {
+  margin-top: 40px;
+}
+
+.PodNaslov{
+  font-size: 15px !important;
+}
+
+.Naslov{
+  font-size: 10px !important;
+}
+
 html {
   margin: 0px;
   min-height: 100%;
   width: 100%;
 }
-
-
 
 body {
   margin: 0px;
@@ -34,9 +53,10 @@ body {
   text-align:center;
 }
 
-.TextMnu{
-  margin-top: 90px !important;
+.TextMnu{  
   font-weight: bold;
+  margin-top: 40px;  
+  text-align: left;
 }
 
 #GlavniMeni{
@@ -272,6 +292,7 @@ body {
   .sm-flex-center {
     display:flex;
     align-items:center;
+    text-align: center;
 }
 }
   
@@ -282,6 +303,7 @@ body {
     display:flex;
     align-items:center;
     height: 100%;
+    text-align: center;
 }
 }
   
@@ -292,6 +314,7 @@ body {
     display:flex;
     align-items:center;
     height: 100%;
+    text-align: center;
 }
 }
 
@@ -335,6 +358,15 @@ body {
   height: 40px;
 }
 
+.exit{
+  float: right;
+  margin-right: -30px;
+}
+
+.vrata {
+  background-color: #2096cc;
+}
+
 .btnMenu :hover{
   content: url("./MenuHover.svg");
   height: 40px;
@@ -351,13 +383,13 @@ body {
 }
 
 .Boldirat{
-  font-weight: bold;
-  text-decoration: underline;
   font-size: 10px;
 }
 
 .SmallerSize{
-  font-size: 10px;
+  font-size: 9px;
+  text-align: left;
+  color: #2096cc;
 }
 
 .NewColorQUiz{
