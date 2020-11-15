@@ -360,8 +360,8 @@ body {
 
 .exit{
   float: right;
-  margin-right: -30px;
-  
+  margin-right: -10px;
+  color: #2096cc;
 }
 
 .vrata {

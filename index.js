@@ -2028,5 +2028,5 @@ Back123S = () => {
 }
 
 Exit = () => {
-  window.open("https://qualitycert.ba/")
+  window.open("https://qualitycert.ba/");
 }
