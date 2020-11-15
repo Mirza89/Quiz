@@ -37,13 +37,13 @@ h4{
 
 html {
   margin: 0px;
-  min-height: 100%;
+  min-height: 150%;
   width: 100%;
 }
 
 body {
   margin: 0px;
-  min-height: 100%;
+  min-height: 150%;
   width: 100%;
   background: #2b96cc;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -391,6 +391,12 @@ body {
 }
 
 .SmallerSize{
+  font-size: 9px;
+  text-align: left;
+  color: #2096cc;
+}
+
+.SmallerSize1{
   font-size: 9px;
   text-align: center;
   color: #2096cc;
