@@ -440,6 +440,7 @@ body {
 .flex{
   display: flex;
   flex-flow: column;
+  margin-left: -40px;
 }
 
 .btnS {
