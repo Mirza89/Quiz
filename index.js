@@ -864,6 +864,7 @@ $(document).ready(function(e){
     $("#b1No").hide();
     $("#b1Yes").hide();
     $("#b2No").hide();
+    $("#b2Nos").hide();
     $("#b2Yes").hide();
     $("#b3No").hide();
     $("#b3Yes").hide();
@@ -2030,3 +2031,4 @@ Back123S = () => {
 Exit = () => {
   window.open("https://qualitycert.ba/");
 }
+

@@ -37,13 +37,13 @@ h4{
 
 html {
   margin: 0px;
-  min-height: 300%;
+  min-height: 150%;
   width: 100%;
 }
 
 body {
   margin: 0px;
-  min-height: 300%;
+  min-height: 150%;
   width: 100%;
   background: #2b96cc;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -276,11 +276,7 @@ body {
     align-items:center;
 }
 
-.DD{
-  background: transparent;
-  color: #2096cc;
-  font-weight: bold;
-}
+
 
 .DD:hover {
   color: #2096cc;
@@ -435,15 +431,22 @@ body {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.middle {
-  margin-top: 0px;
+.middle1 {
+  margin-top: 10px;
+  margin-left: -30px;
 }
 
 
 .flex{
-  display: flex;
-  flex-flow: column;
-  margin-left: -40px;
+  display: flex; /* to make it a flex-box */ 
+  flex-direction: column; /* stacks vertically instead of horizontally */ 
+  justify-content: space-around;
+}
+
+.hidden {
+  display: flex; /* to make it a flex-box */ 
+  flex-direction: column; /* stacks vertically instead of horizontally */ 
+  justify-content: space-around;
 }
 
 .btnS {
@@ -457,25 +460,100 @@ body {
   text-align: center;
 }
 
+.vertical-menu {
+  width: 200px;
+}
+
+.containerMM{
+  display: flex; /* to make it a flex-box */ 
+flex-direction: column; /* stacks vertically instead of horizontally */ 
+justify-content: space-around; /* adds equal spacing above top, below */
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+}
+
 .paragraf{
   font-size: 9px;
 }
 
 .dropdown{
   background: transparent;
-  margin-top: -22px;
+}
+
+.DD{
+  background: transparent;
+  color: #2096cc;
+  font-weight: bold;
+}
+
+.Nesto{
+  margin-top: -20px;
 }
 
 .btn-primary{
   background: #2b96cc;
 }
 
-.centered-wrapper:before {
-  content: "";
-  position: relative;
-  display: inline-block;
-  width: 0; height: 100%;
-  vertical-align: middle;
+.meni{
+  width: 199px;
+}
+
+/*VERTICAL MENU*/
+nav.vertical{
+  position:relative;
+  width:200px;
+}
+
+/* ALL UL */
+nav.vertical ul{
+  list-style: none;
+}
+/* ALL LI */
+nav.vertical li{
+  position:relative;
+}
+/* ALL A */
+nav.vertical a{
+  display:block;
+  color:#2096cc;
+  padding:10px 15px;
+  cursor: pointer;;
+  transition:0.2s;
+  width: 210px;
+  text-align: left;
+}
+/* ALL A HOVER */
+nav.vertical li:hover > a{
+  background:white;
+  color: #2096cc;
+}
+
+
+
+/* INNER UL HIDE */
+nav.vertical ul ul{
+  position:absolute;
+  left:0%;
+  top:0;
+  visibility:hidden;
+  opacity:0;
+  transition: transform 0.2s;
+  transform: translateX(50px);
+  text-align: center;
+  font-size: 10px;
+}
+/* INNER UL SHOW */
+nav.vertical li:hover > ul{
+  left:100%;
+  visibility:visible;
+  opacity:1;
+  transform: translateX(0px);
+  background: white;
 }
 
 
