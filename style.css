@@ -20,11 +20,14 @@ html {
   width: 100%;
 }
 
+
+
 body {
   margin: 0px;
   min-height: 100%;
   width: 100%;
   background: #2b96cc;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .dugme{
@@ -253,6 +256,16 @@ body {
     align-items:center;
 }
 
+.DD{
+  background: transparent;
+  color: #2096cc;
+  font-weight: bold;
+}
+
+.DD:hover {
+  color: #2096cc;
+}
+
 /* Mobile */
 @media (min-width: 0) and (max-width: 768px) { 
 
@@ -379,6 +392,8 @@ body {
 .dropdown-content a:hover {background-color: white;}
 
 .dropdown:hover .dropdown-content {display: block;}
+
+
 
 .flex{
   display: flex;
