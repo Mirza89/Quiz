@@ -149,12 +149,12 @@ function BB1SS() {
 }
 
 function BB2SS() {
-  $("#f2Yes").hide();
+  $("#f2No").hide();
   $("#f1Yes").show();
 }
 
 function BB3SS() {
-  $("#f2No").hide();
+  $("#f2Yes").hide();
   $("#f1Yes").show();
 }
 
@@ -580,6 +580,8 @@ function Reset() {
   $("#a10Yes").hide();
   $("#a11No").hide();
   $("#a11Yes").hide();
+  $("#a13Yes").hide();
+  $("#a12Yes").hide();
   $("#a1s").show();
   $("#a1Nos").hide();
   $("#a1Yess").hide();
@@ -833,6 +835,7 @@ $(document).ready(function(e){
     $("#a1").hide();
     $("#a1No").hide();
     $("#a1Yes").hide();
+    $("#a13Yes").hide();
     $("#a2No").hide();
     $("#a2Yes").hide();
     $("#a3No").hide();
@@ -853,6 +856,7 @@ $(document).ready(function(e){
     $("#a10Yes").hide();
     $("#a11No").hide();
     $("#a11Yes").hide();
+    $("#a12Yes").hide();
     $("#a1s").hide();
     $("#a1Nos").hide();
     $("#a1Yess").hide();
@@ -1867,12 +1871,12 @@ function BB1S() {
 
 function BB2S() {
   $("#b2Yess").hide();
-  $("#b1Nos").show();
+  $("#b1Yess").show();
 }
 
 function BB3S() {
   $("#b2Nos").hide();
-  $("#b1Nos").show();
+  $("#b1Yess").show();
 }
 
 function BackS() {
@@ -2004,6 +2008,16 @@ function BB6SSS() {
 function BB7SSS() {
   $("#i4Yes").hide();
   $("#i3No").show();
+}
+
+function BB8SSS() {
+  $("#i5No").hide();
+  $("#i4No").show();
+}
+
+function BB9SSS() {
+  $("#i5Yes").hide();
+  $("#i4No").show();
 }
 
 function BackButtonSSSS() {

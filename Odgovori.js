@@ -54,7 +54,7 @@ function BackButton10() {
 
 function BackButton11() {
   $("#a6No").hide();
-  $("#a5Yes").show();
+  $("#a12Yes").show();
 }
 
 function BackButton12() {
@@ -107,6 +107,16 @@ function BackButton21() {
   $("#a10No").show();  
 }
 
+function BackButton22() {
+  $("#a12Yes").hide();
+  $("#a1No").show();  
+}
+
+function BackButton23() {
+  $("#a13Yes").hide();
+  $("#a12Yes").show();  
+}
+
  //Prvo pitanje
  $("#Odg1").click(function(){
   $("#a1").hide();
@@ -146,7 +156,7 @@ $("#Odg10").click(function(){
 //Peto Pitanje
 $("#Odg3").click(function(){
   $("#a1No").hide();
-  $("#a5Yes").show();
+  $("#a12Yes").show();
 });
 $("#Odg4").click(function(){
   $("#a1No").hide();
@@ -205,6 +215,15 @@ $("#Odg21").click(function(){
 $("#Odg22").click(function(){
   $("#a10No").hide();
   $("#a11No").show();
+});
+
+$("#Odg23").click(function(){
+  $("#a12Yes").hide();
+  $("#a13Yes").show();
+});
+$("#Odg24").click(function(){
+  $("#a12Yes").hide();
+  $("#a6No").show();
 });
 
 //-----------------------------------
@@ -309,11 +328,11 @@ $("#Odgovor22").click(function(){
 
 $("#Odgovor23").click(function(){
   $("#b10No").hide();
-  $("#b34Yes").show();
+  $("#b30Yes").show();
 });
 $("#Odgovor24").click(function(){
   $("#b10No").hide();
-  $("#b34No").show();
+  $("#b30No").show();
 });
 
 $("#Odgovor25").click(function(){
@@ -354,11 +373,11 @@ $("#Odgovor32").click(function(){
 
 $("#Odgovor33").click(function(){
   $("#b15No").hide();
-  $("#b17Yes").show();
+  $("#b16Yes").show();
 });
 $("#Odgovor34").click(function(){
   $("#b15No").hide();
-  $("#b17No").show();
+  $("#b16No").show();
 });
 
 $("#Odgovor35").click(function(){
@@ -438,7 +457,7 @@ $("#Odgovor51").click(function(){
 });
 $("#Odgovor52").click(function(){
   $("#b24No").hide();
-  $("#b2Yes").show();
+  $("#b27No").show();
 });
 $("#Odgovor53").click(function(){
   $("#b25No").hide();
@@ -1032,7 +1051,7 @@ function BB16() {
 
 function BB17() {
   $("#b9Yes").hide();
-  $("#b8No").show();
+  $("#b9No").show();
 }
 
 function BB18() {
