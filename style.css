@@ -576,7 +576,7 @@ nav.vertical li:hover > ul{
 
 .modal { 
   width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  height: 50%; /* Full height */
   overflow: auto;
   background: none;
   border-radius: 10px;
@@ -605,7 +605,6 @@ nav.vertical li:hover > ul{
     overflow-y: initial !important
 }
 .modal-body{
-height: 300px;
 overflow-y: auto;
 }
 
