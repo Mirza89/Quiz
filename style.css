@@ -572,7 +572,6 @@ nav.vertical li:hover > ul{
   /* spacing as needed */
   /* let it scroll */ 
    overflow: auto;
-   margin-top: 40px;
 }
 
 .modal { 
