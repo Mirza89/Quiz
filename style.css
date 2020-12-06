@@ -23,6 +23,10 @@ h4{
   margin-left: -20px;
 }
 
+.site-content{
+  visibility: hidden;
+}
+
 .Kategorije {
   margin-top: 40px;
 }
@@ -47,6 +51,7 @@ body {
   width: 100%;
   background: #2b96cc;
   font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .dugme{
@@ -80,6 +85,7 @@ body {
   border-bottom-right-radius: 15px;
   text-align: justify;
   padding: 0px;
+  width: 35%;
 }
 
 #GlavniMeni2{
@@ -304,7 +310,7 @@ body {
 }
   
 /* Desktop */
-@media (min-width: 1024px) { 
+@media (min-width: 3024px) { 
 
   .lg-flex-center {
     display:flex;
@@ -458,6 +464,7 @@ body {
 .NS{
   flex-direction: column;
   text-align: center;
+  display: contents;
 }
 
 .vertical-menu {
@@ -555,5 +562,51 @@ nav.vertical li:hover > ul{
   transform: translateX(0px);
   background: white;
 }
+
+
+
+/* Modal Content/Box */
+.modal-content {
+  width: 190%;
+  height: 245px;
+  text-align: left;
+  /* spacing as needed */
+  margin-top: 35px;
+  /* let it scroll */  overflow: auto;
+
+}
+
+.modal { 
+  width: 76%; /* Full width */
+  height: 100%; /* Full height */
+  margin-left: 5px;
+  overflow: auto;
+  background: none;
+  border-radius: 10px;
+}
+
+#ScrollModal{
+  width: 800px;
+  position: relative;
+  left: -10px;
+}
+
+#ModalOPen{
+  color: #2096cc;
+  background: none;
+  border: none;
+}
+
+.modal-title{
+  color: #2096cc;
+}
+
+.modal-body{
+  padding: 0;
+  line-height: 1;
+  max-height: calc(100% - 120px);
+}
+
+
 
 

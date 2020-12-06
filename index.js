@@ -813,6 +813,10 @@ function Reset() {
   $("#m5Yes").hide();
 }
 
+Redirect = () => {
+  location.replace("")
+}
+
 //Prikaz
 $(document).ready(function(e){ 
 
@@ -1191,225 +1195,225 @@ $("#Ansr10m").click(function(){
 });
 
 
-R14 = () => {
-  $("#a1s").show();
-  $("#b1").hide();
-  $("#a1").hide();
-  $("#c1").hide();
-  $("#m1").hide();
-  $('#GlavniMeni').hide();
-  $('#GlavniMeni2').hide();
-  $('#GlavniMeni3').hide();
-  $('#GlavniMeni4').hide();
-  $('#GlavniMeni5').hide();  
-  $('#GlavniMeniS').hide();
-  $('#GlavniMeni3S').hide();
-  $('#GlavniMeni4S').hide();
-  $('#GlavniMeni5S').hide();
-  $('#GlavniMeni6S').hide();
-  $('#GlavniMeni7S').hide();
-  $('#GlavniMeni8S').hide();
-  $('#GlavniMeni9S').hide();
-  $('#GlavniMeni10S').hide();
-}
-R15 = () => {
-  $("#b1s").show();
-  $("#b1").hide();
-  $("#b2Yess").hide();
-  $("#a1").hide();
-  $("#c1").hide();
-  $("#m1").hide();
-  $('#GlavniMeni').hide();
-  $('#GlavniMeni2').hide();
-  $('#GlavniMeni3').hide();
-  $('#GlavniMeni4').hide();
-  $('#GlavniMeniS').hide();
-  $('#GlavniMeni3S').hide();
-  $('#GlavniMeni4S').hide();
-  $('#GlavniMeni5S').hide();
-  $('#GlavniMeni6S').hide();
-  $('#GlavniMeni7S').hide();
-  $('#GlavniMeni8S').hide();
-  $('#GlavniMeni9S').hide();
-  $('#GlavniMeni10S').hide();
-  $('#GlavniMeni2S').hide();
-}
+// R14 = () => {
+//   $("#a1s").show();
+//   $("#b1").hide();
+//   $("#a1").hide();
+//   $("#c1").hide();
+//   $("#m1").hide();
+//   $('#GlavniMeni').hide();
+//   $('#GlavniMeni2').hide();
+//   $('#GlavniMeni3').hide();
+//   $('#GlavniMeni4').hide();
+//   $('#GlavniMeni5').hide();  
+//   $('#GlavniMeniS').hide();
+//   $('#GlavniMeni3S').hide();
+//   $('#GlavniMeni4S').hide();
+//   $('#GlavniMeni5S').hide();
+//   $('#GlavniMeni6S').hide();
+//   $('#GlavniMeni7S').hide();
+//   $('#GlavniMeni8S').hide();
+//   $('#GlavniMeni9S').hide();
+//   $('#GlavniMeni10S').hide();
+// }
+// R15 = () => {
+//   $("#b1s").show();
+//   $("#b1").hide();
+//   $("#b2Yess").hide();
+//   $("#a1").hide();
+//   $("#c1").hide();
+//   $("#m1").hide();
+//   $('#GlavniMeni').hide();
+//   $('#GlavniMeni2').hide();
+//   $('#GlavniMeni3').hide();
+//   $('#GlavniMeni4').hide();
+//   $('#GlavniMeniS').hide();
+//   $('#GlavniMeni3S').hide();
+//   $('#GlavniMeni4S').hide();
+//   $('#GlavniMeni5S').hide();
+//   $('#GlavniMeni6S').hide();
+//   $('#GlavniMeni7S').hide();
+//   $('#GlavniMeni8S').hide();
+//   $('#GlavniMeni9S').hide();
+//   $('#GlavniMeni10S').hide();
+//   $('#GlavniMeni2S').hide();
+// }
 
-R16 = () => {
-  $("#c1s").show();
-  $("#b1").hide();
-  $("#a1").hide();
-  $("#c1").hide();
-  $("#m1").hide();
-  $('#GlavniMeni').hide();
-  $('#GlavniMeni2').hide();
-  $('#GlavniMeni3').hide();
-  $('#GlavniMeni4').hide();
-  $('#GlavniMeniS').hide();
-  $('#GlavniMeni3S').hide();
-  $('#GlavniMeni4S').hide();
-  $('#GlavniMeni5S').hide();
-  $('#GlavniMeni6S').hide();
-  $('#GlavniMeni7S').hide();
-  $('#GlavniMeni8S').hide();
-  $('#GlavniMeni9S').hide();
-  $('#GlavniMeni10S').hide();
-  $('#GlavniMeni4S').show();
-}
+// R16 = () => {
+//   $("#c1s").show();
+//   $("#b1").hide();
+//   $("#a1").hide();
+//   $("#c1").hide();
+//   $("#m1").hide();
+//   $('#GlavniMeni').hide();
+//   $('#GlavniMeni2').hide();
+//   $('#GlavniMeni3').hide();
+//   $('#GlavniMeni4').hide();
+//   $('#GlavniMeniS').hide();
+//   $('#GlavniMeni3S').hide();
+//   $('#GlavniMeni4S').hide();
+//   $('#GlavniMeni5S').hide();
+//   $('#GlavniMeni6S').hide();
+//   $('#GlavniMeni7S').hide();
+//   $('#GlavniMeni8S').hide();
+//   $('#GlavniMeni9S').hide();
+//   $('#GlavniMeni10S').hide();
+//   $('#GlavniMeni4S').show();
+// }
 
-R16S = () => {
-  $("#d1s").show();
-  $("#b1").hide();
-  $("#a1").hide();
-  $("#c1").hide();
-  $("#m1").hide();
-  $('#GlavniMeni').hide();
-  $('#GlavniMeni2').hide();
-  $('#GlavniMeni3').hide();
-  $('#GlavniMeni4').hide();
-  $('#GlavniMeniS').hide();
-  $('#GlavniMeni3S').hide();
-  $('#GlavniMeni4S').hide();
-  $('#GlavniMeni5S').hide();
-  $('#GlavniMeni6S').hide();
-  $('#GlavniMeni7S').hide();
-  $('#GlavniMeni8S').hide();
-  $('#GlavniMeni9S').hide();
-  $('#GlavniMeni10S').hide();
-  $('#GlavniMeni5S').show();
-}
+// R16S = () => {
+//   $("#d1s").show();
+//   $("#b1").hide();
+//   $("#a1").hide();
+//   $("#c1").hide();
+//   $("#m1").hide();
+//   $('#GlavniMeni').hide();
+//   $('#GlavniMeni2').hide();
+//   $('#GlavniMeni3').hide();
+//   $('#GlavniMeni4').hide();
+//   $('#GlavniMeniS').hide();
+//   $('#GlavniMeni3S').hide();
+//   $('#GlavniMeni4S').hide();
+//   $('#GlavniMeni5S').hide();
+//   $('#GlavniMeni6S').hide();
+//   $('#GlavniMeni7S').hide();
+//   $('#GlavniMeni8S').hide();
+//   $('#GlavniMeni9S').hide();
+//   $('#GlavniMeni10S').hide();
+//   $('#GlavniMeni5S').show();
+// }
 
-R17 = () => {
-  $("#e1").show();
-  $("#b1").hide();
-  $("#a1").hide();
-  $("#c1").hide();
-  $("#m1").hide();
-  $('#GlavniMeni').hide();
-  $('#GlavniMeni2').hide();
-  $('#GlavniMeni3').hide();
-  $('#GlavniMeni4').hide();
-  $('#GlavniMeniS').hide();
-  $('#GlavniMeni3S').hide();
-  $('#GlavniMeni4S').hide();
-  $('#GlavniMeni5S').hide();
-  $('#GlavniMeni6S').hide();
-  $('#GlavniMeni7S').hide();
-  $('#GlavniMeni8S').hide();
-  $('#GlavniMeni9S').hide();
-  $('#GlavniMeni10S').hide();
-  $('#GlavniMeni6S').show();
-}
+// R17 = () => {
+//   $("#e1").show();
+//   $("#b1").hide();
+//   $("#a1").hide();
+//   $("#c1").hide();
+//   $("#m1").hide();
+//   $('#GlavniMeni').hide();
+//   $('#GlavniMeni2').hide();
+//   $('#GlavniMeni3').hide();
+//   $('#GlavniMeni4').hide();
+//   $('#GlavniMeniS').hide();
+//   $('#GlavniMeni3S').hide();
+//   $('#GlavniMeni4S').hide();
+//   $('#GlavniMeni5S').hide();
+//   $('#GlavniMeni6S').hide();
+//   $('#GlavniMeni7S').hide();
+//   $('#GlavniMeni8S').hide();
+//   $('#GlavniMeni9S').hide();
+//   $('#GlavniMeni10S').hide();
+//   $('#GlavniMeni6S').show();
+// }
 
-R18 = () => {
-  $("#f1").show();
-  $("#b1").hide();
-  $("#a1").hide();
-  $("#c1").hide();
-  $("#m1").hide();
-  $('#GlavniMeni').hide();
-  $('#GlavniMeni2').hide();
-  $('#GlavniMeni3').hide();
-  $('#GlavniMeni4').hide();
-  $('#GlavniMeniS').hide();
-  $('#GlavniMeni3S').hide();
-  $('#GlavniMeni4S').hide();
-  $('#GlavniMeni5S').hide();
-  $('#GlavniMeni6S').hide();
-  $('#GlavniMeni7S').hide();
-  $('#GlavniMeni8S').hide();
-  $('#GlavniMeni9S').hide();
-  $('#GlavniMeni10S').hide();
-  $('#GlavniMeni7S').show();
-}
+// R18 = () => {
+//   $("#f1").show();
+//   $("#b1").hide();
+//   $("#a1").hide();
+//   $("#c1").hide();
+//   $("#m1").hide();
+//   $('#GlavniMeni').hide();
+//   $('#GlavniMeni2').hide();
+//   $('#GlavniMeni3').hide();
+//   $('#GlavniMeni4').hide();
+//   $('#GlavniMeniS').hide();
+//   $('#GlavniMeni3S').hide();
+//   $('#GlavniMeni4S').hide();
+//   $('#GlavniMeni5S').hide();
+//   $('#GlavniMeni6S').hide();
+//   $('#GlavniMeni7S').hide();
+//   $('#GlavniMeni8S').hide();
+//   $('#GlavniMeni9S').hide();
+//   $('#GlavniMeni10S').hide();
+//   $('#GlavniMeni7S').show();
+// }
 
-R19 = () => {
-  $("#g1").show();
-  $("#b1").hide();
-  $("#a1").hide();
-  $("#c1").hide();
-  $("#m1").hide();
-  $('#GlavniMeni').hide();
-  $('#GlavniMeni2').hide();
-  $('#GlavniMeni3').hide();
-  $('#GlavniMeni4').hide();
-  $('#GlavniMeniS').hide();
-  $('#GlavniMeni3S').hide();
-  $('#GlavniMeni4S').hide();
-  $('#GlavniMeni5S').hide();
-  $('#GlavniMeni6S').hide();
-  $('#GlavniMeni7S').hide();
-  $('#GlavniMeni8S').hide();
-  $('#GlavniMeni9S').hide();
-  $('#GlavniMeni10S').hide();
-  $('#GlavniMeni8S').show();
-}
+// R19 = () => {
+//   $("#g1").show();
+//   $("#b1").hide();
+//   $("#a1").hide();
+//   $("#c1").hide();
+//   $("#m1").hide();
+//   $('#GlavniMeni').hide();
+//   $('#GlavniMeni2').hide();
+//   $('#GlavniMeni3').hide();
+//   $('#GlavniMeni4').hide();
+//   $('#GlavniMeniS').hide();
+//   $('#GlavniMeni3S').hide();
+//   $('#GlavniMeni4S').hide();
+//   $('#GlavniMeni5S').hide();
+//   $('#GlavniMeni6S').hide();
+//   $('#GlavniMeni7S').hide();
+//   $('#GlavniMeni8S').hide();
+//   $('#GlavniMeni9S').hide();
+//   $('#GlavniMeni10S').hide();
+//   $('#GlavniMeni8S').show();
+// }
 
-R20 = () => {  
-  $("#j1").show();
-  $("#b1").hide();
-  $("#a1").hide();
-  $("#c1").hide();
-  $("#m1").hide();
-  $('#GlavniMeni').hide();
-  $('#GlavniMeni2').hide();
-  $('#GlavniMeni3').hide();
-  $('#GlavniMeni4').hide();
-  $('#GlavniMeniS').hide();
-  $('#GlavniMeni3S').hide();
-  $('#GlavniMeni4S').hide();
-  $('#GlavniMeni5S').hide();
-  $('#GlavniMeni6S').hide();
-  $('#GlavniMeni7S').hide();
-  $('#GlavniMeni8S').hide();
-  $('#GlavniMeni10S').hide();
-  $('#GlavniMeni9S').show();
-}
+// R20 = () => {  
+//   $("#j1").show();
+//   $("#b1").hide();
+//   $("#a1").hide();
+//   $("#c1").hide();
+//   $("#m1").hide();
+//   $('#GlavniMeni').hide();
+//   $('#GlavniMeni2').hide();
+//   $('#GlavniMeni3').hide();
+//   $('#GlavniMeni4').hide();
+//   $('#GlavniMeniS').hide();
+//   $('#GlavniMeni3S').hide();
+//   $('#GlavniMeni4S').hide();
+//   $('#GlavniMeni5S').hide();
+//   $('#GlavniMeni6S').hide();
+//   $('#GlavniMeni7S').hide();
+//   $('#GlavniMeni8S').hide();
+//   $('#GlavniMeni10S').hide();
+//   $('#GlavniMeni9S').show();
+// }
 
-R21 = () => {
-  $("#i1").show();
-  $("#b1").hide();
-  $("#a1").hide();
-  $("#c1").hide();
-  $("#m1").hide();
-  $('#GlavniMeni').hide();
-  $('#GlavniMeni2').hide();
-  $('#GlavniMeni3').hide();
-  $('#GlavniMeni4').hide();
-  $('#GlavniMeni3S').hide();
-  $('#GlavniMeni4S').hide();
-  $('#GlavniMeni5S').hide();
-  $('#GlavniMeni6S').hide();
-  $('#GlavniMeni7S').hide();
-  $('#GlavniMeni8S').hide();
-  $('#GlavniMeni9S').hide();
-  $('#GlavniMeni12').hide();
-  $('#GlavniMeni10S').show();
-}
+// R21 = () => {
+//   $("#i1").show();
+//   $("#b1").hide();
+//   $("#a1").hide();
+//   $("#c1").hide();
+//   $("#m1").hide();
+//   $('#GlavniMeni').hide();
+//   $('#GlavniMeni2').hide();
+//   $('#GlavniMeni3').hide();
+//   $('#GlavniMeni4').hide();
+//   $('#GlavniMeni3S').hide();
+//   $('#GlavniMeni4S').hide();
+//   $('#GlavniMeni5S').hide();
+//   $('#GlavniMeni6S').hide();
+//   $('#GlavniMeni7S').hide();
+//   $('#GlavniMeni8S').hide();
+//   $('#GlavniMeni9S').hide();
+//   $('#GlavniMeni12').hide();
+//   $('#GlavniMeni10S').show();
+// }
 
-R22 = () => {
-  $("#k1").show();
-  $("#b1").hide();
-  $("#a1").hide();
-  $("#c1").hide();
-  $("#m1").hide();
-  $('#GlavniMeni').hide();
-  $('#GlavniMeni2').hide();
-  $('#GlavniMeni3').hide();
-  $('#GlavniMeni4').hide();
-  $('#GlavniMeniS').hide();
-  $('#GlavniMeni3S').hide();
-  $('#GlavniMeni4S').hide();
-  $('#GlavniMeni5S').hide();
-  $('#GlavniMeni6S').hide();
-  $('#GlavniMeni7S').hide();
-  $('#GlavniMeni8S').hide();
-  $('#GlavniMeni9S').hide();
-  $('#GlavniMeni10S').hide();
-  $('#GlavniMeni11S').show();
-  $('#GlavniMeni12').hide();
+// R22 = () => {
+//   $("#k1").show();
+//   $("#b1").hide();
+//   $("#a1").hide();
+//   $("#c1").hide();
+//   $("#m1").hide();
+//   $('#GlavniMeni').hide();
+//   $('#GlavniMeni2').hide();
+//   $('#GlavniMeni3').hide();
+//   $('#GlavniMeni4').hide();
+//   $('#GlavniMeniS').hide();
+//   $('#GlavniMeni3S').hide();
+//   $('#GlavniMeni4S').hide();
+//   $('#GlavniMeni5S').hide();
+//   $('#GlavniMeni6S').hide();
+//   $('#GlavniMeni7S').hide();
+//   $('#GlavniMeni8S').hide();
+//   $('#GlavniMeni9S').hide();
+//   $('#GlavniMeni10S').hide();
+//   $('#GlavniMeni11S').show();
+//   $('#GlavniMeni12').hide();
 
-}
+// }
 
 
 //R14
@@ -2045,4 +2049,159 @@ Back123S = () => {
 Exit = () => {
   window.open("https://qualitycert.ba/");
 }
+
+
+R14 = () => {
+  $("#a1s").show();
+  $('#GlavniMeniS').hide();
+  $('#GlavniMeni3S').hide();
+  $('#GlavniMeni2S').show();
+  $('#GlavniMeni').hide();
+  $('#GlavniMeni2').hide();
+  $('#GlavniMeni3').hide();
+  $('#GlavniMeni4').hide();
+  $('#GlavniMeni5').hide();
+  $('.modal').hide();
+}
+
+R15 = () => {
+  $("#b1s").show();
+  $('#GlavniMeniS').hide();
+  $('#GlavniMeni3S').show();
+  $('#GlavniMeni2S').hide();
+  $('#GlavniMeni').hide();
+  $('#GlavniMeni2').hide();
+  $('#GlavniMeni3').hide();
+  $('#GlavniMeni4').hide();
+  $('#GlavniMeni5').hide();
+}
+
+R16 = () => {
+  $("#c1s").show();
+  $('#GlavniMeniS').hide();
+  $('#GlavniMeniSS').hide();
+  $('#GlavniMeni3S').hide();
+  $('#GlavniMeni4S').show();
+  $('#GlavniMeni').hide();
+  $('#GlavniMeni2').hide();
+  $('#GlavniMeni3').hide();
+  $('#GlavniMeni4').hide();
+  $('#GlavniMeni5').hide();
+}
+
+R16S = () => {
+  $("#d1s").show();
+  $('#GlavniMeniS').hide();
+  $('#GlavniMeni3S').hide();
+  $('#GlavniMeni4S').hide();
+  $('#GlavniMeni5S').show();
+  $('#GlavniMeni').hide();
+  $('#GlavniMeni2').hide();
+  $('#GlavniMeni3').hide();
+  $('#GlavniMeni4').hide();
+  $('#GlavniMeni5').hide();
+}
+
+R17 = () => {
+  $("#e1").show();
+  $('#GlavniMeniS').hide();
+  $('#GlavniMeni3S').hide();
+  $('#GlavniMeni4S').hide();
+  $('#GlavniMeni5S').hide();
+  $('#GlavniMeni6S').show();
+  $('#GlavniMeni').hide();
+  $('#GlavniMeni2').hide();
+  $('#GlavniMeni3').hide();
+  $('#GlavniMeni4').hide();
+  $('#GlavniMeni5').hide();
+}
+
+R18 = () => {
+  $("#f1").show();
+  $('#GlavniMeniS').hide();
+  $('#GlavniMeni2S').hide();
+  $('#GlavniMeni3S').hide();
+  $('#GlavniMeni4S').hide();
+  $('#GlavniMeni5S').hide();
+  $('#GlavniMeni6S').hide();
+  $('#GlavniMeni7S').show();
+  $('#GlavniMeni').hide();
+  $('#GlavniMeni2').hide();
+  $('#GlavniMeni3').hide();
+  $('#GlavniMeni4').hide();
+  $('#GlavniMeni5').hide();
+}
+
+R19 = () => {
+  $("#g1").show();
+  $('#GlavniMeniS').hide();
+  $('#GlavniMeni3S').hide();
+  $('#GlavniMeni4S').hide();
+  $('#GlavniMeni5S').hide();
+  $('#GlavniMeni6S').hide();
+  $('#GlavniMeni7S').hide();
+  $('#GlavniMeni8S').show();
+  $('#GlavniMeni').hide();
+  $('#GlavniMeni2').hide();
+  $('#GlavniMeni3').hide();
+  $('#GlavniMeni4').hide();
+  $('#GlavniMeni5').hide();
+}
+
+R20 = () => {
+  $("#j1").show();
+  $('#GlavniMeniS').hide();
+  $('#GlavniMeni3S').hide();
+  $('#GlavniMeni4S').hide();
+  $('#GlavniMeni5S').hide();
+  $('#GlavniMeni6S').hide();
+  $('#GlavniMeni7S').hide();
+  $('#GlavniMeni8S').hide();
+  $('#GlavniMeni9S').show();
+  $('#GlavniMeni').hide();
+  $('#GlavniMeni2').hide();
+  $('#GlavniMeni3').hide();
+  $('#GlavniMeni4').hide();
+  $('#GlavniMeni5').hide();
+}
+
+R21 = () => {
+  $("#i1").show();
+  $('#GlavniMeniS').hide();
+  $('#GlavniMeni3S').hide();
+  $('#GlavniMeni4S').hide();
+  $('#GlavniMeni5S').hide();
+  $('#GlavniMeni6S').hide();
+  $('#GlavniMeni7S').hide();
+  $('#GlavniMeni8S').hide();
+  $('#GlavniMeni9S').hide();
+  $('#GlavniMeni').hide();
+  $('#GlavniMeni2').hide();
+  $('#GlavniMeni3').hide();
+  $('#GlavniMeni4').hide();
+  $('#GlavniMeni5').hide();
+  $('#GlavniMeni10S').show();
+}
+
+R22 = () => {
+  $("#k1").show();
+  $('#GlavniMeniS').hide();
+  $('#GlavniMeni3S').hide();
+  $('#GlavniMeni4S').hide();
+  $('#GlavniMeni5S').hide();
+  $('#GlavniMeni6S').hide();
+  $('#GlavniMeni7S').hide();
+  $('#GlavniMeni8S').hide();
+  $('#GlavniMeni9S').hide();
+  $('#GlavniMeni10S').hide();
+  $('#GlavniMeni').hide();
+  $('#GlavniMeni2').hide();
+  $('#GlavniMeni3').hide();
+  $('#GlavniMeni4').hide();
+  $('#GlavniMeni5').hide();
+  $('#GlavniMeni11S').show();
+}
+
+
+
 
