@@ -41,13 +41,13 @@ h4{
 
 html {
   margin: 0px;
-  min-height: 200%;
+  min-height: 150%;
   width: 100%;
 }
 
 body {
   margin: 0px;
-  min-height: 200%;
+  min-height: 150%;
   width: 100%;
   background: #2b96cc;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -576,7 +576,7 @@ nav.vertical li:hover > ul{
 
 .modal { 
   width: 100%; /* Full width */
-  height: 75%; /* Full height */
+  height: 100%; /* Full height */
   overflow: auto;
   background: none;
   border-radius: 10px;
@@ -584,7 +584,7 @@ nav.vertical li:hover > ul{
 
 #ScrollModal{
   width: 255%;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #ModalOPen{
