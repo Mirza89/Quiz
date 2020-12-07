@@ -373,16 +373,16 @@ $("#Odgovor32").click(function(){
 
 $("#Odgovor33").click(function(){
   $("#b15No").hide();
-  $("#b16Yes").show();
+  $("#b17Yes").show();
 });
 $("#Odgovor34").click(function(){
   $("#b15No").hide();
-  $("#b16No").show();
+  $("#b17No").show();
 });
 
 $("#Odgovor35").click(function(){
   $("#b15Yes").hide();
-  $("#b116Yes").show();
+  $("#b16Yes").show();
 });
 $("#Odgovor36").click(function(){
   $("#b15Yes").hide();
@@ -453,11 +453,11 @@ $("#Odgovor50").click(function(){
 });
 $("#Odgovor51").click(function(){
   $("#b24No").hide();
-  $("#b25Yes").show();
+  $("#b27Yes").show();
 });
 $("#Odgovor52").click(function(){
   $("#b24No").hide();
-  $("#b27No").show();
+  $("#b27Yes").show();
 });
 $("#Odgovor53").click(function(){
   $("#b25No").hide();
@@ -497,11 +497,11 @@ $("#Odgovor61").click(function(){
 });
 $("#Odgovor62").click(function(){
   $("#b30Yes").hide();
-  $("#b31Yes").show();
+  $("#b31No").show();
 });
 $("#Odgovor63").click(function(){
   $("#b30Yes").hide();
-  $("#b32No").show();
+  $("#b31No").show();
 });
 $("#Odgovor64").click(function(){
   $("#b31No").hide();
@@ -521,7 +521,7 @@ $("#Odgovor67").click(function(){
 });
 $("#Odgovor68").click(function(){
   $("#b32No").hide();
-  $("#b34Yes").show();
+  $("#b33No").show();
 });
 $("#Odgovor69").click(function(){
   $("#b34No").hide();
@@ -1235,7 +1235,7 @@ function BB59() {
   $("#b10No").show();
 }
 function BB60() {
-  $("#b31No").hide();
+  $("#b31Yes").hide();
   $("#b30Yes").show();
 }
 function BB61() {

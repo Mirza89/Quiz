@@ -2083,6 +2083,7 @@ R15 = () => {
   $('#GlavniMeni3').hide();
   $('#GlavniMeni4').hide();
   $('#GlavniMeni5').hide();
+  $('.modal').hide();
 }
 
 R16 = () => {
@@ -2096,6 +2097,7 @@ R16 = () => {
   $('#GlavniMeni3').hide();
   $('#GlavniMeni4').hide();
   $('#GlavniMeni5').hide();
+  $('.modal').hide();
 }
 
 R16S = () => {
@@ -2109,6 +2111,7 @@ R16S = () => {
   $('#GlavniMeni3').hide();
   $('#GlavniMeni4').hide();
   $('#GlavniMeni5').hide();
+  $('.modal').hide();
 }
 
 R17 = () => {
@@ -2123,6 +2126,7 @@ R17 = () => {
   $('#GlavniMeni3').hide();
   $('#GlavniMeni4').hide();
   $('#GlavniMeni5').hide();
+  $('.modal').hide();
 }
 
 R18 = () => {
@@ -2139,6 +2143,7 @@ R18 = () => {
   $('#GlavniMeni3').hide();
   $('#GlavniMeni4').hide();
   $('#GlavniMeni5').hide();
+  $('.modal').hide();
 }
 
 R19 = () => {
@@ -2155,6 +2160,7 @@ R19 = () => {
   $('#GlavniMeni3').hide();
   $('#GlavniMeni4').hide();
   $('#GlavniMeni5').hide();
+  $('.modal').hide();
 }
 
 R20 = () => {
@@ -2172,6 +2178,7 @@ R20 = () => {
   $('#GlavniMeni3').hide();
   $('#GlavniMeni4').hide();
   $('#GlavniMeni5').hide();
+  $('.modal').hide();
 }
 
 R21 = () => {
@@ -2190,6 +2197,7 @@ R21 = () => {
   $('#GlavniMeni4').hide();
   $('#GlavniMeni5').hide();
   $('#GlavniMeni10S').show();
+  $('.modal').hide();
 }
 
 R22 = () => {
@@ -2209,6 +2217,7 @@ R22 = () => {
   $('#GlavniMeni4').hide();
   $('#GlavniMeni5').hide();
   $('#GlavniMeni11S').show();
+  $('.modal').hide();
 }
 
 
