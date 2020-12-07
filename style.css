@@ -580,11 +580,10 @@ nav.vertical li:hover > ul{
   overflow: auto;
   background: none;
   border-radius: 10px;
-  margin-top: 257px;
 }
 
 #ScrollModal{
-  width: 150%;
+  width: 250%;
 }
 
 #ModalOPen{
@@ -593,8 +592,20 @@ nav.vertical li:hover > ul{
   border: none;
 }
 
+.modal-footer{  
+  flex-flow: row-reverse;
+}
+
+#CloseAndShow{
+  color: #2096cc;
+  background: none;
+  border: none;
+  font-size: 15px;
+}
+
 .modal-title{
   color: #2096cc;
+  font-size: 15px;
 }
 
 /* CSS used here will be applied after bootstrap.css */

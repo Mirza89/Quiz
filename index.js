@@ -2050,6 +2050,14 @@ Exit = () => {
   window.open("https://qualitycert.ba/");
 }
 
+ModalOpen = () => {
+  $('#GlavniMeni').hide();
+}
+
+ShowMainMenu = () => {
+  $('#GlavniMeni').show();
+}
+
 
 
 R14 = () => {
@@ -2202,6 +2210,8 @@ R22 = () => {
   $('#GlavniMeni5').hide();
   $('#GlavniMeni11S').show();
 }
+
+
 
 
 
