@@ -73,6 +73,8 @@ body {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 0px;
+  height: auto;
+  width: auto;
 }
 
 #GlavniMeniS{
@@ -617,6 +619,7 @@ nav.vertical li:hover > ul{
 .modal-body{
 height: 250px;
 overflow-y: auto;
+overflow-x: hidden;
 }
 
 
