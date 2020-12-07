@@ -585,7 +585,7 @@ nav.vertical li:hover > ul{
 }
 
 #ScrollModal{
-  display: flex;
+  width: 220%;
   font-size: 14px;
 }
 
