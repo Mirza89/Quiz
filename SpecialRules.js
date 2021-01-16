@@ -486,6 +486,12 @@
   $("#b42No").hide();
   $("#b43Yes").hide();
   $("#b43No").hide();
+  $("#b44Yes").hide();
+  $("#b44No").hide();
+  $("#b45Yes").hide();
+  $("#b45No").hide();
+  $("#b46Yes").hide();
+  $("#b46No").hide();
   $("#b1s").hide();
   $("#b1Nos").hide();
   $("#b1Yess").hide();
@@ -782,6 +788,12 @@ function Reset() {
   $("#b42No").hide();
   $("#b43Yes").hide();
   $("#b43No").hide();
+  $("#b44Yes").hide();
+  $("#b44No").hide();
+  $("#b45Yes").hide();
+  $("#b45No").hide();
+  $("#b46Yes").hide();
+  $("#b46No").hide();
   $("#b1s").show();
   $("#b1Nos").hide();
   $("#b1Yess").hide();

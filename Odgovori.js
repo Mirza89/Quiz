@@ -59,12 +59,12 @@ function BackButton11() {
 
 function BackButton12() {
   $("#a7Yes").hide();
-  $("#a6No").show();
+  $("#a5Yes").show();
 }
 
 function BackButton13() {
   $("#a7No").hide();
-  $("#a6No").show();
+  $("#a5Yes").show();
 }
 //presjek2
 function BackButton14() {
@@ -165,11 +165,11 @@ $("#Odg4").click(function(){
 //Sesto Pitanje
 $("#Odg11").click(function(){
   $("#a5Yes").hide();
-  $("#a6Yes").show();
+  $("#a7Yes").show();
 });
 $("#Odg12").click(function(){
   $("#a5Yes").hide();
-  $("#a6No").show();
+  $("#a7No").show();
 });
 //Sedmo Pitanje
 $("#Odg15").click(function(){
@@ -178,7 +178,7 @@ $("#Odg15").click(function(){
 });
 $("#Odg16").click(function(){
   $("#a6No").hide();
-  $("#a7No").show();
+  $("#a5Yes").show();
 });
 //Osmo Pitanje
 $("#Odg13").click(function(){
@@ -238,355 +238,923 @@ $("#Odgovor2").click(function(){
 //Drugo Pitanje
 $("#Odgovor3").click(function(){
   $("#b1No").hide();
-  $("#b2Yes").show();
+  $("#b8Yes").show();
 });
 $("#Odgovor4").click(function(){
   $("#b1No").hide();
-  $("#b2No").show();
+  $("#b8No").show();
 });
 //Trece Pitanje
 $("#Odgovor5").click(function(){
   $("#b1Yes").hide();
-  $("#b6Yes").show();
+  $("#b2Yes").show();
 });
 $("#Odgovor6").click(function(){
   $("#b1Yes").hide();
-  $("#b6No").show();
+  $("#b2No").show();
 });
 //Cevrto Pitanje
 $("#Odgovor7").click(function(){
-  $("#b2Yes").hide();
+  $("#b2No").hide();
   $("#b3Yes").show();
 });
 $("#Odgovor8").click(function(){
-  $("#b2Yes").hide();
+  $("#b2No").hide();
   $("#b3No").show();
 });
 //Peto Pitanje
 $("#Odgovor9").click(function(){
   $("#b3No").hide();
-  $("#b4Yes").show();
+  $("#b5Yes").show();
 });
 $("#Odgovor10").click(function(){
   $("#b3No").hide();
-  $("#b4No").show();
+  $("#b5No").show();
 });
 //Sesto Pitanje
 $("#Odgovor11").click(function(){
-  $("#b4No").hide();
-  $("#b5Yes").show();
+  $("#b3Yes").hide();
+  $("#b4Yes").show();
 });
 $("#Odgovor12").click(function(){
-  $("#b4No").hide();
-  $("#b5No").show();
+  $("#b3Yes").hide();
+  $("#b4No").show();
 });
 //Sedmo Pitanje
 $("#Odgovor13").click(function(){
   $("#b5No").hide();
-  $("#b12Yes").show();
+  $("#b7Yes").show();
 });
 $("#Odgovor14").click(function(){
   $("#b5No").hide();
-  $("#b12No").show();
+  $("#b7No").show();
 });
 //Osmo Pitanje
 $("#Odgovor15").click(function(){
-  $("#b6No").hide();
-  $("#b7Yes").show();
+  $("#b5Yes").hide();
+  $("#b6Yes").show();
 });
 $("#Odgovor16").click(function(){
-  $("#b6No").hide();
-  $("#b7No").show();
+  $("#b5Yes").hide();
+  $("#b6No").show();
 });
 //9 Pitanje
 $("#Odgovor17").click(function(){
   $("#b8No").hide();
-  $("#b9Yes").show();
+  $("#b34Yes").show();
 });
 $("#Odgovor18").click(function(){
   $("#b8No").hide();
-  $("#b9No").show();
+  $("#b34No").show();
 });
 //10 Pitanje
 $("#Odgovor19").click(function(){
-  $("#b9No").hide();
-  $("#b10Yes").show();
+  $("#b8Yes").hide();
+  $("#b9Yes").show();
 });
 $("#Odgovor20").click(function(){
-  $("#b9No").hide();
-  $("#b10No").show();
+  $("#b8Yes").hide();
+  $("#b9No").show();
 });
 //11 Pitanje
 $("#Odgovor21").click(function(){
-  $("#b9Yes").hide();
-  $("#b34Yes").show();
+  $("#b9No").hide();
+  $("#b10Yes").show();
 });
 $("#Odgovor22").click(function(){
-  $("#b9Yes").hide();
-  $("#b34No").show();
+  $("#b9No").hide();
+  $("#b10No").show();
 });
 
 $("#Odgovor23").click(function(){
-  $("#b10No").hide();
-  $("#b30Yes").show();
+  $("#b9Yes").hide();
+  $("#b27Yes").show();
 });
 $("#Odgovor24").click(function(){
-  $("#b10No").hide();
-  $("#b30No").show();
+  $("#b9Yes").hide();
+  $("#b27No").show();
 });
 
 $("#Odgovor25").click(function(){
-  $("#b10Yes").hide();
+  $("#b10No").hide();
   $("#b11Yes").show();
 });
 $("#Odgovor26").click(function(){
-  $("#b10Yes").hide();
+  $("#b10No").hide();
   $("#b11No").show();
 });
 
 $("#Odgovor27").click(function(){
+  $("#b10Yes").hide();
+  $("#b21Yes").show();
+});
+$("#Odgovor28").click(function(){
+  $("#b10Yes").hide();
+  $("#b21No").show();
+});
+
+$("#Odgovor29").click(function(){
+  $("#b11Yes").hide();
+  $("#b12Yes").show();
+});
+$("#Odgovor30").click(function(){
+  $("#b11Yes").hide();
+  $("#b12No").show();
+});
+
+$("#Odgovor31").click(function(){
   $("#b12No").hide();
   $("#b13Yes").show();
 });
-$("#Odgovor28").click(function(){
+$("#Odgovor32").click(function(){
   $("#b12No").hide();
   $("#b13No").show();
 });
 
-$("#Odgovor29").click(function(){
+$("#Odgovor33").click(function(){
   $("#b13No").hide();
-  $("#b15Yes").show();
-});
-$("#Odgovor30").click(function(){
-  $("#b13No").hide();
-  $("#b15No").show();
-});
-
-$("#Odgovor31").click(function(){
-  $("#b13Yes").hide();
   $("#b14Yes").show();
 });
-$("#Odgovor32").click(function(){
-  $("#b13Yes").hide();
+$("#Odgovor34").click(function(){
+  $("#b13No").hide();
   $("#b14No").show();
 });
 
-$("#Odgovor33").click(function(){
-  $("#b15No").hide();
-  $("#b17Yes").show();
-});
-$("#Odgovor34").click(function(){
-  $("#b15No").hide();
-  $("#b17No").show();
-});
-
 $("#Odgovor35").click(function(){
-  $("#b15Yes").hide();
-  $("#b16Yes").show();
+  $("#b14No").hide();
+  $("#b15Yes").show();
 });
 $("#Odgovor36").click(function(){
-  $("#b15Yes").hide();
-  $("#b16No").show();
+  $("#b14No").hide();
+  $("#b15No").show();
 });
 
 $("#Odgovor37").click(function(){
-  $("#b17No").hide();
-  $("#b18Yes").show();
+  $("#b15No").hide();
+  $("#b16Yes").show();
 });
 $("#Odgovor38").click(function(){
-  $("#b17No").hide();
-  $("#b18No").show();
+  $("#b15No").hide();
+  $("#b16No").show();
 });
 
 $("#Odgovor39").click(function(){
+  $("#b16No").hide();
+  $("#b17Yes").show();
+});
+$("#Odgovor40").click(function(){
+  $("#b16No").hide();
+  $("#b17No").show();
+});
+
+$("#Odgovor41").click(function(){
+  $("#b17No").hide();
+  $("#b18Yes").show();
+});
+$("#Odgovor42").click(function(){
+  $("#b17No").hide();
+  $("#b18No").show();
+});
+/* Presjek */
+$("#Odgovor43").click(function(){
   $("#b18No").hide();
   $("#b19Yes").show();
 });
-$("#Odgovor40").click(function(){
+$("#Odgovor44").click(function(){
   $("#b18No").hide();
   $("#b19No").show();
 });
 
-$("#Odgovor41").click(function(){
+$("#Odgovor45").click(function(){
   $("#b19No").hide();
-  $("#b22Yes").show();
-});
-$("#Odgovor42").click(function(){
-  $("#b19No").hide();
-  $("#b22No").show();
-});
-
-$("#Odgovor43").click(function(){
-  $("#b19Yes").hide();
   $("#b20Yes").show();
 });
-$("#Odgovor44").click(function(){
-  $("#b19Yes").hide();
+$("#Odgovor46").click(function(){
+  $("#b19No").hide();
   $("#b20No").show();
 });
 
-$("#Odgovor45").click(function(){
-  $("#b20No").hide();
-  $("#b21Yes").show();
+$("#Odgovor47").click(function(){
+  $("#b21No").hide();
+  $("#b22Yes").show();
 });
-$("#Odgovor46").click(function(){
-  $("#b20No").hide();
-  $("#b21No").show();
+$("#Odgovor48").click(function(){
+  $("#b21No").hide();
+  $("#b22No").show();
 });
 
-$("#Odgovor47").click(function(){
+$("#Odgovor49").click(function(){
   $("#b22No").hide();
   $("#b23Yes").show();
 });
-$("#Odgovor48").click(function(){
+$("#Odgovor50").click(function(){
   $("#b22No").hide();
   $("#b23No").show();
 });
 
-$("#Odgovor49").click(function(){
+$("#Odgovor51").click(function(){
   $("#b23No").hide();
   $("#b24Yes").show();
 });
-$("#Odgovor50").click(function(){
+$("#Odgovor52").click(function(){
   $("#b23No").hide();
   $("#b24No").show();
 });
-$("#Odgovor51").click(function(){
-  $("#b24No").hide();
-  $("#b27Yes").show();
-});
-$("#Odgovor52").click(function(){
-  $("#b24No").hide();
-  $("#b27Yes").show();
-});
+
 $("#Odgovor53").click(function(){
-  $("#b25No").hide();
-  $("#b28Yes").show();
+  $("#b24No").hide();
+  $("#b25Yes").show();
 });
 $("#Odgovor54").click(function(){
-  $("#b25No").hide();
-  $("#b28No").show();
+  $("#b24No").hide();
+  $("#b25No").show();
 });
+
 $("#Odgovor55").click(function(){
-  $("#b27Yes").hide();
-  $("#b28Yes").show();
+  $("#b25No").hide();
+  $("#b26Yes").show();
 });
 $("#Odgovor56").click(function(){
-  $("#b27Yes").hide();
-  $("#b28No").show();
+  $("#b25No").hide();
+  $("#b26No").show();
 });
+
 $("#Odgovor57").click(function(){
-  $("#b28Yes").hide();
-  $("#b29Yes").show();
+  $("#b27No").hide();
+  $("#b28Yes").show();
 });
 $("#Odgovor58").click(function(){
-  $("#b28Yes").hide();
+  $("#b27No").hide();
+  $("#b28No").show();
+});
+
+$("#Odgovor59").click(function(){
+  $("#b28No").hide();
+  $("#b29Yes").show();
+});
+$("#Odgovor60").click(function(){
+  $("#b28No").hide();
   $("#b29No").show();
 });
-$("#Odgovor59").click(function(){
+
+$("#Odgovor61").click(function(){
   $("#b29No").hide();
   $("#b30Yes").show();
 });
-$("#Odgovor60").click(function(){
-  $("#b25Yes").hide();
-  $("#b26Yes").show();
-});
-$("#Odgovor61").click(function(){
-  $("#b25Yes").hide();
-  $("#b26No").show();
-});
 $("#Odgovor62").click(function(){
-  $("#b30Yes").hide();
-  $("#b31No").show();
+  $("#b29No").hide();
+  $("#b30No").show();
 });
+
 $("#Odgovor63").click(function(){
-  $("#b30Yes").hide();
-  $("#b31No").show();
+  $("#b30No").hide();
+  $("#b31Yes").show();
 });
 $("#Odgovor64").click(function(){
+  $("#b30No").hide();
+  $("#b31No").show();
+});
+//Presjek
+$("#Odgovor65").click(function(){
   $("#b31No").hide();
   $("#b32Yes").show();
 });
-$("#Odgovor65").click(function(){
-  $("#b31No").hide();
-  $("#b32No").show();
-});
 $("#Odgovor66").click(function(){
-  $("#b32No").hide();
-  $("#b33No").show();
+  $("#b31No").hide();
+  $("#b32No").show();  
 });
+
 $("#Odgovor67").click(function(){
-  $("#b32No").hide();
+  $("#b32Yes").hide();
   $("#b33Yes").show();
 });
 $("#Odgovor68").click(function(){
-  $("#b32No").hide();
+  $("#b32Yes").hide();
   $("#b33No").show();
 });
+//ne radi
 $("#Odgovor69").click(function(){
-  $("#b34No").hide();
-  $("#b35Yes").show();
+  $("#b32No").hide();
+  $("#b43Yes").show();  
 });
 $("#Odgovor70").click(function(){
-  $("#b34No").hide();
-  $("#b35No").show();
+  $("#b32No").hide();
+  $("#b43No").show();
 });
+//presjek
 $("#Odgovor71").click(function(){
-  $("#b6Yes").hide();
-  $("#b8Yes").show();
+  $("#b34Yes").hide();
+  $("#b35Yes").show();
 });
 $("#Odgovor72").click(function(){
-  $("#b6Yes").hide();
-  $("#b8No").show();
+  $("#b34Yes").hide();
+  $("#b35No").show();
 });
+
 $("#Odgovor73").click(function(){
+  $("#b35No").hide();
+  $("#b38Yes").show();
+});
+$("#Odgovor74").click(function(){
+  $("#b35No").hide();
+  $("#b38No").show();
+});
+
+$("#Odgovor75").click(function(){
+  $("#b35Yes").hide();
+  $("#b36Yes").show();
+});
+$("#Odgovor76").click(function(){
+  $("#b35Yes").hide();
+  $("#b36No").show();
+});
+
+$("#Odgovor77").click(function(){
   $("#b36No").hide();
   $("#b37Yes").show();
 });
-$("#Odgovor74").click(function(){
+$("#Odgovor78").click(function(){
   $("#b36No").hide();
   $("#b37No").show();
 });
-$("#Odgovor75").click(function(){
-  $("#b37No").hide();
-  $("#b38Yes").show();
-});
-$("#Odgovor76").click(function(){
-  $("#b37No").hide();
-  $("#b38No").show();
-});
-$("#Odgovor77").click(function(){
-  $("#b38No").hide();
+
+$("#Odgovor79").click(function(){
+  $("#b38Yes").hide();
   $("#b39Yes").show();
 });
-$("#Odgovor78").click(function(){
-  $("#b38No").hide();
+$("#Odgovor80").click(function(){
+  $("#b38Yes").hide();
   $("#b39No").show();
 });
-$("#Odgovor79").click(function(){
-  $("#b40Yes").hide();
+//presjek
+$("#Odgovor81").click(function(){
+  $("#b39No").hide();
+  $("#b40Yes").show();
+});
+$("#Odgovor82").click(function(){
+  $("#b39No").hide();
+  $("#b40No").show();
+});
+
+$("#Odgovor83").click(function(){
+  $("#b40No").hide();
   $("#b41Yes").show();
 });
-$("#Odgovor80").click(function(){
-  $("#b40Yes").hide();
+$("#Odgovor84").click(function(){
+  $("#b40No").hide();
   $("#b41No").show();
 });
-$("#Odgovor81").click(function(){
+
+$("#Odgovor85").click(function(){
   $("#b41No").hide();
   $("#b42Yes").show();
 });
-$("#Odgovor82").click(function(){
+$("#Odgovor86").click(function(){
   $("#b41No").hide();
   $("#b42No").show();
+})
+//presjek
+$("#Odgovor87").click(function(){
+  $("#b43Yes").hide();
+  $("#b44Yes").show();
 });
-$("#Odgovor83").click(function(){
+$("#Odgovor88").click(function(){
+  $("#b43Yes").hide();
+  $("#b44No").show();
+})
+
+$("#Odgovor89").click(function(){
+  $("#b44No").hide();
+  $("#b45Yes").show();
+});
+$("#Odgovor90").click(function(){
+  $("#b44No").hide();
+  $("#b45No").show();
+})
+
+$("#Odgovor91").click(function(){
+  $("#b45No").hide();
+  $("#b46Yes").show();
+});
+$("#Odgovor92").click(function(){
+  $("#b45No").hide();
+  $("#b46No").show();
+})  
+
+
+function BB106() {
+  $("#b1No").hide();
+  $("#b1").show();
+}
+
+function BB105() {
+  $("#b1Yes").hide();
+  $("#b1").show();
+}
+
+function BB104() {
+  $("#b2No").hide();
+  $("#b1Yes").show();
+}
+
+function BB103() {
+  $("#b2Yes").hide();
+  $("#b1Yes").show();
+}
+
+function BB102() {
+  $("#b3Yes").hide();
+  $("#b2No").show();
+}
+
+function BB101() {
+  $("#b3No").hide();
+  $("#b2No").show();
+}
+
+function BB100() {
+  $("#b4No").hide();
+  $("#b3Yes").show();
+}
+
+function BB1() {
+  $("#b4Yes").hide();
+  $("#b3Yes").show();
+}
+
+function BB2() {
+  $("#b5No").hide();
+  $("#b3No").show();
+}
+
+function BB3() {
+  $("#b5Yes").hide();
+  $("#b3No").show();
+}
+
+function BB4() {
+  $("#b3No").hide();
+  $("#b2Yes").show();
+}
+
+function BB5() {
+  $("#b6No").hide();
+  $("#b5Yes").show();
+}
+
+function BB6() {
+  $("#b6Yes").hide();
+  $("#b5Yes").show();
+}
+
+function BB7() {
+  $("#b7No").hide();
+  $("#b5No").show();
+}
+//Presjek
+function BB8() {
+  $("#b7Yes").hide();
+  $("#b5No").show();
+}
+function BB9() {
+  $("#b8No").hide();
+  $("#b1No").show();
+}
+
+function BB10() {
+  $("#b8Yes").hide();
+  $("#b1No").show();
+}
+
+function BB11() {
+  $("#b9No").hide();
+  $("#b8Yes").show();
+}
+
+function BB12() {
+  $("#b9Yes").hide();
+  $("#b8Yes").show();
+}
+
+function BB13() {
+  $("#b10No").hide();
+  $("#b9No").show();
+}
+//presjek2
+function BB14() {
+  $("#b10Yes").hide();
+  $("#b9No").show();
+}
+
+function BB15() {
+  $("#b11No").hide();
+  $("#b10No").show();
+}
+
+function BB16() {
+  $("#b11Yes").hide();
+  $("#b10No").show();
+}
+
+function BB17() {
+  $("#b12Yes").hide();
+  $("#b11Yes").show();
+}
+
+function BB18() {
+  $("#b12No").hide();
+  $("#b11Yes").show();
+}
+
+function BB19() {
+  $("#b13No").hide();
+  $("#b12No").show();
+}
+
+function BB20() {
+  $("#b13Yes").hide();
+  $("#b12No").show();
+}
+
+function BB21() {
+  $("#b14Yes").hide();
+  $("#b13No").show();
+}
+
+function BB22() {
+  $("#b14No").hide();
+  $("#b13No").show();
+}
+
+function BB23() {
+  $("#b15No").hide();
+  $("#b14No").show();
+}
+
+function BB24() {
+  $("#b15Yes").hide();
+  $("#b14No").show();
+}
+
+function BB25() {
+  $("#b16No").hide();
+  $("#b15No").show();
+}
+
+function BB26() {
+  $("#b16Yes").hide();
+  $("#b15No").show();
+}
+
+function BB27() {
+  $("#b17No").hide();
+  $("#b16No").show();
+}
+
+function BB28() {
+  $("#b17Yes").hide();
+  $("#b16No").show();
+}
+
+function BB29() {
+  $("#b18No").hide();
+  $("#b17No").show();
+}
+
+function BB30() {
+  $("#b18Yes").hide();
+  $("#b17No").show();
+}
+function BB31() {
+  $("#b19No").hide();
+  $("#b18No").show();
+}
+function BB32() {
+  $("#b19Yes").hide();
+  $("#b18No").show();
+}
+function BB33() {
+  $("#b20No").hide();
+  $("#b19No").show();
+}
+function BB34() {
+  $("#b20Yes").hide();
+  $("#b19No").show();
+}
+function BB35() {
+  $("#b21No").hide();
+  $("#b10Yes").show();
+}
+function BB36() {
+  $("#b21Yes").hide();
+  $("#b10Yes").show();
+}
+function BB37() {
+  $("#b22No").hide();
+  $("#b21No").show();
+}
+function BB38() {
+  $("#b22Yes").hide();
+  $("#b21No").show();
+}
+function BB39() {
+  $("#b23No").hide();
+  $("#b22No").show();
+}
+function BB40() {
+  $("#b23Yes").hide();
+  $("#b22No").show();
+}
+function BB41() {
+  $("#b24No").hide();
+  $("#b23No").show();
+}
+function BB42() {
+  $("#b24Yes").hide();
+  $("#b23No").show();
+}
+function BB43() {
+  $("#b25No").hide();
+  $("#b24No").show();
+}
+function BB44() {
+  $("#b25Yes").hide();
+  $("#b24No").show();
+}
+function BB45() {
+  $("#b26No").hide();
+  $("#b25No").show();
+}
+function BB46() {
+  $("#b26Yes").hide();
+  $("#b25No").show();
+}
+
+
+
+
+
+
+
+function BB47() {
+  $("#b27No").hide();
+  $("#b9Yes").show();
+}
+function BB48() {
+  $("#b27Yes").hide();
+  $("#b9Yes").show();
+}
+
+
+
+
+
+
+
+
+
+
+function BB49() {
+  $("#b28No").hide();
+  $("#b27No").show();
+}
+function BB50() {
+  $("#b28Yes").hide();
+  $("#b27No").show();
+}
+
+
+
+
+
+
+
+
+
+
+
+function BB51() {
+  $("#b29No").hide();
+  $("#b28No").show();
+}
+function BB52() {
+  $("#b29Yes").hide();
+  $("#b28No").show();
+}
+
+
+
+
+
+
+
+
+
+
+
+function BB53() {
+  $("#b30No").hide();
+  $("#b29No").show();
+}
+function BB54() {
+  $("#b30Yes").hide();
+  $("#b29No").show();
+}
+
+
+
+
+
+
+
+
+
+function BB55() {
+  $("#b31No").hide();
+  $("#b30No").show();
+}
+function BB56() {
+  $("#b31Yes").hide();
+  $("#b30No").show();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+function BB57() {
+  $("#b32Yes").hide();
+  $("#b31No").show();
+}
+function BB58() {
+  $("#b32No").hide();
+  $("#b31No").show();
+}
+
+
+
+
+
+
+
+
+
+function BB59() {
+  $("#b33No").hide();
+  $("#b32Yes").show();
+}
+function BB60() {
+  $("#b33Yes").hide();
+  $("#b32Yes").show();
+}
+
+
+
+
+function BB61() {
+  $("#b34No").hide();
+  $("#b8No").show();
+}
+function BB62() {
+  $("#b34Yes").hide();
+  $("#b8No").show();
+}
+
+
+
+
+
+function BB63() {
+  $("#b35No").hide();
+  $("#b34Yes").show();
+}
+function BB64() {
+  $("#b35Yes").hide();
+  $("#b34Yes").show();
+}
+
+
+
+
+
+
+
+function BB65() {
+  $("#b36No").hide();
+  $("#b35Yes").show();
+}
+function BB66() {
+  $("#b36Yes").hide();
+  $("#b35Yes").show();
+}
+
+
+
+
+function BB67() {
+  $("#b37No").hide();
+  $("#b36No").show();
+}
+function BB68() {
+  $("#b37Yes").hide();
+  $("#b36No").show();
+}
+
+
+
+
+function BB69() {
+  $("#b38No").hide();
+  $("#b35No").show();
+}
+function BB70() {
+  $("#b38Yes").hide();
+  $("#b35No").show();
+}
+
+
+
+function BB71() {
+  $("#b39Yes").hide();
+  $("#b38Yes").show();
+}
+function BB72() {
+  $("#b39No").hide();
+  $("#b38Yes").show();
+}
+
+
+function BB73() {
+  $("#b40No").hide();
+  $("#b39No").show();
+}
+function BB74() {
+  $("#b40Yes").hide();
+  $("#b39No").show();
+}
+
+
+function BB75() {
+  $("#b41No").hide();
+  $("#b40No").show();
+}
+function BB76() {
+  $("#b41Yes").hide();
+  $("#b40No").show();
+}
+
+function BB77() {
   $("#b42No").hide();
+  $("#b41No").show();
+}
+
+function BB78() {
+  $("#b42Yes").hide();
+  $("#b41No").show();
+}
+
+function BB79() {
+  $("#b43No").hide();
+  $("#b32No").show();
+}
+
+function BB80() {
+  $("#b43Yes").hide();
+  $("#b32No").show();
+}
+
+function BB81() {
+  $("#b44Yes").hide();
   $("#b43Yes").show();
-});
-$("#Odgovor84").click(function(){
-  $("#b42No").hide();
-  $("#b43No").show();
-});
+}
+function BB82() {
+  $("#b44No").hide();
+  $("#b43Yes").show();
+}
+
+function BB83() {
+  $("#b45Yes").hide();
+  $("#b44No").show();
+}
+function BB84() {
+  $("#b45No").hide();
+  $("#b44No").show();
+}
+function BB85() {
+  $("#b46Yes").hide();
+  $("#b45No").show();
+}
+function BB86() {
+  $("#b46No").hide();
+  $("#b45No").show();
+}
 
 
 
@@ -965,359 +1533,9 @@ $("#Odgovor84").click(function(){
   });
 
   //Invasive BackButton application
-function BB() {
-  $("#b1No").hide();
-  $("#b1").show();
-}
 
-function BB1() {
-  $("#b1Yes").hide();
-  $("#b1").show();
-}
 
-function BB2() {
-  $("#b2Yes").hide();
-  $("#b1No").show();
-}
 
-function BB3() {
-  $("#b2No").hide();
-  $("#b1No").show();
-}
-
-function BB4() {
-  $("#b3No").hide();
-  $("#b2Yes").show();
-}
-
-function BB5() {
-  $("#b3Yes").hide();
-  $("#b2Yes").show();
-}
-
-function BB6() {
-  $("#b4No").hide();
-  $("#b3No").show();
-}
-
-function BB7() {
-  $("#b4Yes").hide();
-  $("#b3No").show();
-}
-//Presjek
-function BB8() {
-  $("#b5No").hide();
-  $("#b4No").show();
-}
-function BB9() {
-  $("#b5Yes").hide();
-  $("#b4No").show();
-}
-
-function BB10() {
-  $("#b6No").hide();
-  $("#b1Yes").show();
-}
-
-function BB11() {
-  $("#b6Yes").hide();
-  $("#b1Yes").show();
-}
-
-function BB12() {
-  $("#b7No").hide();
-  $("#b6No").show();
-}
-
-function BB13() {
-  $("#b7Yes").hide();
-  $("#b6No").show();
-}
-//presjek2
-function BB14() {
-  $("#b8No").hide();
-  $("#b6Yes").show();
-}
-
-function BB15() {
-  $("#b8Yes").hide();
-  $("#b6Yes").show();
-}
-
-function BB16() {
-  $("#b9No").hide();
-  $("#b8No").show();
-}
-
-function BB17() {
-  $("#b9Yes").hide();
-  $("#b9No").show();
-}
-
-function BB18() {
-  $("#b10No").hide();
-  $("#b9No").show();
-}
-
-function BB19() {
-  $("#b10Yes").hide();
-  $("#b9No").show();
-}
-
-function BB20() {
-  $("#b11No").hide();
-  $("#b10Yes").show();
-}
-
-function BB21() {
-  $("#b11Yes").hide();
-  $("#b10Yes").show();
-}
-
-function BB22() {
-  $("#b12Yes").hide();
-  $("#b5No").show();
-}
-
-function BB23() {
-  $("#b12No").hide();
-  $("#b5No").show();
-}
-
-function BB24() {
-  $("#b13No").hide();
-  $("#b12No").show();
-}
-
-function BB25() {
-  $("#b13Yes").hide();
-  $("#b12No").show();
-}
-
-function BB26() {
-  $("#b14Yes").hide();
-  $("#b13Yes").show();
-}
-
-function BB27() {
-  $("#b14No").hide();
-  $("#b13Yes").show();
-}
-
-function BB28() {
-  $("#b15No").hide();
-  $("#b13No").show();
-}
-
-function BB29() {
-  $("#b15Yes").hide();
-  $("#b13No").show();
-}
-
-function BB30() {
-  $("#b16No").hide();
-  $("#b15Yes").show();
-}
-function BB31() {
-  $("#b16Yes").hide();
-  $("#b15Yes").show();
-}
-function BB32() {
-  $("#b17No").hide();
-  $("#b15No").show();
-}
-function BB33() {
-  $("#b17Yes").hide();
-  $("#b15No").show();
-}
-function BB34() {
-  $("#b18No").hide();
-  $("#b17No").show();
-}
-function BB35() {
-  $("#b18Yes").hide();
-  $("#b17No").show();
-}
-function BB36() {
-  $("#b19No").hide();
-  $("#b18No").show();
-}
-function BB37() {
-  $("#b19Yes").hide();
-  $("#b18No").show();
-}
-function BB38() {
-  $("#b20No").hide();
-  $("#b19Yes").show();
-}
-function BB39() {
-  $("#b20Yes").hide();
-  $("#b19Yes").show();
-}
-function BB40() {
-  $("#b21No").hide();
-  $("#b20No").show();
-}
-function BB41() {
-  $("#b21Yes").hide();
-  $("#b20No").show();
-}
-function BB42() {
-  $("#b22No").hide();
-  $("#b19No").show();
-}
-function BB43() {
-  $("#b22Yes").hide();
-  $("#b19No").show();
-}
-function BB44() {
-  $("#b23No").hide();
-  $("#b22No").show();
-}
-function BB45() {
-  $("#b23Yes").hide();
-  $("#b22No").show();
-}
-function BB46() {
-  $("#b24No").hide();
-  $("#b23No").show();
-}
-function BB47() {
-  $("#b24Yes").hide();
-  $("#b23No").show();
-}
-function BB48() {
-  $("#b27No").hide();
-  $("#b26No").show();
-}
-function BB49() {
-  $("#b25Yes").hide();
-  $("#b24No").show();
-}
-function BB50() {
-  $("#b26No").hide();
-  $("#b25Yes").show();
-}
-function BB51() {
-  $("#b26Yes").hide();
-  $("#b25Yes").show();
-}
-function BB52() {
-  $("#b27No").hide();
-  $("#b24No").show();
-}
-function BB53() {
-  $("#b27Yes").hide();
-  $("#b24No").show();
-}
-function BB54() {
-  $("#b28No").hide();
-  $("#b27Yes").show();
-}
-function BB55() {
-  $("#b28Yes").hide();
-  $("#b27Yes").show();
-}
-function BB56() {
-  $("#b29No").hide();
-  $("#b28Yes").show();
-}
-function BB57() {
-  $("#b29Yes").hide();
-  $("#b28Yes").show();
-}
-function BB58() {
-  $("#b30No").hide();
-  $("#b10No").show();
-}
-function BB59() {
-  $("#b30Yes").hide();
-  $("#b10No").show();
-}
-function BB60() {
-  $("#b31Yes").hide();
-  $("#b30Yes").show();
-}
-function BB61() {
-  $("#b31Yes").hide();
-  $("#b30Yes").show();
-}
-function BB62() {
-  $("#b32Yes").hide();
-  $("#b31No").show();
-}
-function BB63() {
-  $("#b32No").hide();
-  $("#b31No").show();
-}
-function BB64() {
-  $("#b33No").hide();
-  $("#b32No").show();
-}
-function BB65() {
-  $("#b33Yes").hide();
-  $("#b32No").show();
-}
-function BB66() {
-  $("#b34No").hide();
-  $("#b9Yes").show();
-}
-function BB67() {
-  $("#b34Yes").hide();
-  $("#b9Yes").show();
-}
-function BB68() {
-  $("#b37Yes").hide();
-  $("#b36No").show();
-}
-function BB69() {
-  $("#b38No").hide();
-  $("#b37No").show();
-}
-function BB70() {
-  $("#b38Yes").hide();
-  $("#b37No").show();
-}
-function BB71() {
-  $("#b39Yes").hide();
-  $("#b38No").show();
-}
-function BB72() {
-  $("#b39No").hide();
-  $("#b38No").show();
-}
-function BB73() {
-  $("#b40No").hide();
-  $("#b28No").show();
-}
-function BB74() {
-  $("#b40Yes").hide();
-  $("#b28No").show();
-}
-function BB75() {
-  $("#b41No").hide();
-  $("#b40Yes").show();
-}
-function BB76() {
-  $("#b41Yes").hide();
-  $("#b40Yes").show();
-}
-function BB77() {
-  $("#b42No").hide();
-  $("#b41No").show();
-}
-function BB78() {
-  $("#b42Yes").hide();
-  $("#b41No").show();
-}
-function BB79() {
-  $("#b43No").hide();
-  $("#b42No").show();
-}
-function BB80() {
-  $("#b43Yes").hide();
-  $("#b42No").show();
-}
 
 /*--------Active Devices--------*/
 function Back() {

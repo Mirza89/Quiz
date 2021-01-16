@@ -1,100 +1,4 @@
-function ShowNonInvasive() {
-  $("#a1").show();
-  $('#GlavniMeni').hide();
-  $('#GlavniMeni3').hide();
-  $('#GlavniMeni2').show();
-  $('#GlavniMeni3S').hide();
-  $('#GlavniMeni4S').hide();
-  $('#GlavniMeni5S').hide();
-  $('#GlavniMeni6S').hide();
-  $('#GlavniMeni7S').hide();
-  $('#GlavniMeni8S').hide();
-  $('#GlavniMeni9S').hide();
-  $('#GlavniMeni10S').hide();
-  $('#GlavniMeni11S').hide();
-}
 
-function ShowInvasive() {
-  $("#b1").show();
-  $("#a1").hide();
-  $('#GlavniMeni').hide();
-  $('#GlavniMeni2').hide();
-  $('#GlavniMeni3').show();
-  $('#GlavniMeni3S').hide();
-  $('#GlavniMeni4S').hide();
-  $('#GlavniMeni5S').hide();
-  $('#GlavniMeni6S').hide();
-  $('#GlavniMeni7S').hide();
-  $('#GlavniMeni8S').hide();
-  $('#GlavniMeni9S').hide();
-  $('#GlavniMeni10S').hide();
-  $('#GlavniMeni11S').hide();
-}
-
-function ShowActiveDevices() {
-  $("#b1").hide();
-  $("#a1").hide();
-  $("#a1s").hide();
-  $("#c19Yes").hide();
-  $("#c1").show();
-  $('#GlavniMeni').hide();
-  $('#GlavniMeni2').hide();
-  $('#GlavniMeni2S').hide();
-  $('#GlavniMeni3').hide();
-  $('#GlavniMeni4').show();
-  $('#GlavniMeni3S').hide();
-  $('#GlavniMeni4S').hide();
-  $('#GlavniMeni5S').hide();
-  $('#GlavniMeni6S').hide();
-  $('#GlavniMeni7S').hide();
-  $('#GlavniMeni8S').hide();
-  $('#GlavniMeni9S').hide();
-  $('#GlavniMeni10S').hide();
-  $('#GlavniMeni11S').hide();
-  $('#GlavniMeni12S').hide();
-}
-
-function ShowSpecialRules() {
-  $("#b1").hide();
-  $("#a1").hide();
-  $("#c1").hide();
-  $("#d1").show();
-  $('#GlavniMeni').hide();
-  $('#GlavniMeni2').hide();
-  $('#GlavniMeni3').hide();
-  $('#GlavniMeni4').hide();
-  $('#GlavniMeni5').show();
-  $('#GlavniMeni3S').hide();
-  $('#GlavniMeni4S').hide();
-  $('#GlavniMeni5S').hide();
-  $('#GlavniMeni6S').hide();
-  $('#GlavniMeni7S').hide();
-  $('#GlavniMeni8S').hide();
-  $('#GlavniMeni9S').hide();
-  $('#GlavniMeni10S').hide();
-  $('#GlavniMeni11S').hide();
-}
-
-function ShowSoftware() {
-  $("#b1").hide();
-  $("#a1").hide();
-  $("#c1").hide();
-  $("#m1").show();
-  $('#GlavniMeni').hide();
-  $('#GlavniMeni2').hide();
-  $('#GlavniMeni3').hide();
-  $('#GlavniMeni4').hide();
-  $('#GlavniMeni12S').show();
-  $('#GlavniMeni3S').hide();
-  $('#GlavniMeni4S').hide();
-  $('#GlavniMeni5S').hide();
-  $('#GlavniMeni6S').hide();
-  $('#GlavniMeni7S').hide();
-  $('#GlavniMeni8S').hide();
-  $('#GlavniMeni9S').hide();
-  $('#GlavniMeni10S').hide();
-  $('#GlavniMeni11S').hide();
-}
 
 
 
@@ -378,6 +282,12 @@ function ShowMenu() {
   $("#b42No").hide();
   $("#b43Yes").hide();
   $("#b43No").hide();
+  $("#b44Yes").hide();
+  $("#b44No").hide();
+  $("#b45Yes").hide();
+  $("#b45No").hide();
+  $("#b46Yes").hide();
+  $("#b46No").hide();
   $("#b1s").hide();
   $("#b1Nos").hide();
   $("#b1Yess").hide();
@@ -674,6 +584,12 @@ function Reset() {
   $("#b42No").hide();
   $("#b43Yes").hide();
   $("#b43No").hide();
+  $("#b44Yes").hide();
+  $("#b44No").hide();
+  $("#b45Yes").hide();
+  $("#b45No").hide();
+  $("#b46Yes").hide();
+  $("#b46No").hide();
   $("#b1s").show();
   $("#b1Nos").hide();
   $("#b1Yess").hide();
@@ -818,7 +734,7 @@ Redirect = () => {
 }
 
 //Prikaz
-$(document).ready(function(e){ 
+$(document).ready(function(){ 
 
     $('#GlavniMeni').show();
     $('#GlavniMeni2').hide();
@@ -966,6 +882,12 @@ $(document).ready(function(e){
     $("#b42No").hide();
     $("#b43Yes").hide();
     $("#b43No").hide();
+    $("#b44Yes").hide();
+    $("#b44No").hide();
+    $("#b45Yes").hide();
+    $("#b45No").hide();
+    $("#b46Yes").hide();
+    $("#b46No").hide();
     $("#b1s").hide();
     $("#b1Nos").hide();
     $("#b1Yess").hide();
@@ -1142,7 +1064,6 @@ $(document).ready(function(e){
     $("#m4Yes").hide();
     $("#m5No").hide();
     $("#m5Yes").hide();
-    e.preventDefault();
 
    
 });
@@ -1714,6 +1635,12 @@ function Reset1() {
   $("#b42No").hide();
   $("#b43Yes").hide();
   $("#b43No").hide();
+  $("#b44Yes").hide();
+  $("#b44No").hide();
+  $("#b45Yes").hide();
+  $("#b45No").hide();
+  $("#b46Yes").hide();
+  $("#b46No").hide();
   $("#c1s").show();
   $("#c1Nos").hide();
   $("#c1Yess").hide();
@@ -2221,7 +2148,17 @@ R22 = () => {
 }
 
 
-
+window.oncontextmenu = function () {
+  return false;
+}
+$(document).keydown(function (event) {
+  if (event.keyCode == 123) {
+    return false;
+  }
+  else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
+    return false;
+  }
+});
 
 
 
